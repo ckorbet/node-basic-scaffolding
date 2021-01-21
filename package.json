@@ -1,0 +1,20 @@
+{
+  "name": "node_basic_scaffolding",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build_server": "cd src/server && npm run build && cd ../..",
+    "start_server_watch": "cd src/server && npm run start_dev_watch && cd ../..",
+    "start_server": "cd src/server && npm run start_dev && cd ../..",
+    "debug_server": "cd src/server && npm run debug_dev && cd ../..",
+    "test_server": "cd src/server && npm run test && cd ../.."
+  },
+  "author": "",
+  "contributors": [
+    {
+      "name": "",
+      "email": ""
+    }
+  ],
+  "license": "MIT"
+}

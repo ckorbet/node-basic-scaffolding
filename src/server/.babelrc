@@ -1,0 +1,13 @@
+// in .babelrc
+{   
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "targets": {
+          "esmodules": true
+        }
+      }
+    ]
+  ]
+  }
